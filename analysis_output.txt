@@ -1,5 +1,2 @@
 Analyzing my_new_project...                                     
-
-   info - The imported package 'non_existing_package' isn't a dependency of the importing package - lib\main.dart:2:8 - depend_on_referenced_packages
-  error - Target of URI doesn't exist: 'package:non_existing_package/non_existing.dart' - lib\main.dart:2:8 - uri_does_not_exist
-
+No issues found! (ran in 1.4s)
