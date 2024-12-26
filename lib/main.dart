@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:non_existing_package/non_existing.dart'; // Bu import hatalı
-
 void main() {
   runApp(const MyApp());
 }

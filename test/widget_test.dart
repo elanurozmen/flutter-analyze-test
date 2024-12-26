@@ -27,4 +27,16 @@ void main() {
     expect(find.text('0'), findsNothing);
     expect(find.text('1'), findsOneWidget);
   });
+  testWidgets('Hata vermesi için yanlış bir test', (WidgetTester tester) async {
+  // Test edilen widget örneği
+  await tester.pumpWidget(MaterialApp(
+    home: Scaffold(
+      body: Text('Merhaba, Dünya!'),
+    ),
+  ));
+
+  // Yanlış bir "expect" ifadesi (testin başarısız olmasını sağlar)
+  expect(find.text('Hoşça kal, Dünya!'), findsOneWidget);
+});
+
 }
